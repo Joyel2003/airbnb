@@ -80,7 +80,7 @@
     display: flex;
     overflow: scroll;
     scrollbar-width: none;
-    gap: 30px;
+    gap: 37px;
     height: 75px;
     width: 100%;
     }
@@ -100,7 +100,6 @@
     }
     .icons{
     display: flex;
-    border-bottom: 1px solid rgb(216, 214, 214);
     padding: 0px 24px;
     } 
     .icon img {
@@ -413,7 +412,7 @@
         display: none;
     }
     .icons{
-        width: 100%;
+        width: 94%;
         height: 78px;
         padding: 0px 40px;
     }
@@ -590,6 +589,20 @@
     .logo1-svg{
         display: none;
     }
+    .icons_main{
+        display: flex;
+        align-items: center;
+    }
+    .next_button{
+        display: flex;
+       width: 32px; 
+       height: 32px;
+       border: 1px solid;
+       border-radius: 100px;
+       justify-content: center;
+       align-items: center;
+
+    }
 }
 @media screen and (min-width:787px) {
     .search span{
@@ -655,6 +668,7 @@
     .logo1-svg{
         display: none;
     }
+   
 }
 @media screen and (min-width:1128px) {
     .part1 {
@@ -737,9 +751,6 @@
     }
 }
 @media screen and (min-width:1321px) {
-    .screen img{
-        height: 277px;
-    }
     .search {
         height: 48px;
         width: 400px;
@@ -748,24 +759,28 @@
         font-size: 14px;
     }
     .part1{
-        padding: 0px 40px;
+        padding: 0px 80px;
+    }
+    .part2{
+        padding: 0px 80px;
     }
     .icons{
-        padding: 0px 40px;
+        padding: 0px 80px;
     }
     .main{
-        padding: 0px 40px;
+        padding: 0px 80px;
     }
     .screen img{
         height: 286px;
     }
     .nature{
-        padding: 48px 40px;
+        padding: 48px 80px;
     }
     .bottom1{
-        padding: 0px 40px;
+        padding: 0px 80px;
     }
 }
+
 @media screen and (min-width:1640px) {
     .part1 {
         display: grid;
