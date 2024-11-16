@@ -8,7 +8,7 @@
 
     @font-face {
     font-family: airbnb_font;
-    src: url("./font/AirbnbCerealVF_W_Wght.2d9d32865ef1262644c455b3ead871e9.woff2");
+    src: url(./font/AirbnbCerealVF_W_Wght.2d9d32865ef1262644c455b3ead871e9.woff2);
     }
     .body-main {
     display: flex;
@@ -594,15 +594,16 @@
         align-items: center;
     }
     .next_button{
-        display: flex;
+       display: flex;
        width: 32px; 
        height: 32px;
-       border: 1px solid;
+       border: 0.5px solid rgb(0 0 0/0.3);
        border-radius: 100px;
        justify-content: center;
        align-items: center;
 
     }
+
 }
 @media screen and (min-width:787px) {
     .search span{
