@@ -311,14 +311,14 @@ button{
     position: sticky;
     display: flex;
     cursor: pointer;
-    overflow-x: auto; /* Ensure horizontal scrolling */
+    overflow-x: auto; 
     scroll-snap-type: x mandatory;
     scroll-snap-align: start;
     column-gap: 42px;
-    scrollbar-width: none; /* For Firefox */ 
+    scrollbar-width: none; 
 }
 .icon::-webkit-scrollbar {
-    display: none; /* For Chrome, Safari, and Edge */
+    display: none;
 }
 #last {
     position: sticky;
@@ -344,9 +344,9 @@ button{
     margin: 25px 0px 0px 0px;
     width: auto;
     display: flex;
-    flex-direction: column; /* Align items vertically */
-    align-items: center; /* Center horizontally */
-    justify-content: center; /* Center vertically */
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center; 
     border-bottom: 3px solid transparent;
 }
 .icon div:first-child{
@@ -354,33 +354,32 @@ button{
 }
 .icon div p {
     font-size: 12px;
-    color: #6a6a6a; /* Default grey text color */
+    color: #6a6a6a; 
     line-break: strict;
     font-family: var(--font);
     line-height: 16px;
     font-weight: 500;
     padding: 5px 0px 12px 0px;
-    transition: color 0.3s ease; /* Smooth transition for text color */
+    transition: color 0.3s ease; 
 }
 .icon div:not(:first-child):hover {
-    border-bottom: 3px solid #ddd; /* Grey border on hover */
+    border-bottom: 3px solid #ddd;
 }
 .icon div:hover p {
-    color: #0e0e0e; /* Black text color on hover */
+    color: #0e0e0e; 
 }
 .icon div img {
-    opacity: 0.7; /* Default opacity for images */
-    transition: opacity 0.3s ease; /* Smooth transition for image opacity */
+    opacity: 0.7; 
+    transition: opacity 0.3s ease; 
     padding: 3px 0px;
 }
 .icon div:hover img {
-    opacity: 1; /* Fully opaque on hover */
+    opacity: 1;
 }
 section.ggrid {
     margin: 15px 0px 48px 0px;
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(4,minmax(0, 1fr)); /* Four columns */
+    grid-template-columns: repeat(4,minmax(0, 1fr)); 
     grid-column-gap: 24px;
     padding: 0px 80px;
     grid-row-gap:40px;
@@ -398,17 +397,20 @@ section.ggrid ul {
     flex-direction: column; /* Stack text elements vertically */
     justify-content: space-between; /* Space out the image and text */
     position: relative;
+    width: 100%;
 }
 .ggrid ul li{
     padding: 1px 0px;
 }
-#pic{
+#pic {
     vertical-align: bottom;
     position:relative;
     margin-bottom: 5px;
     overflow: clip;
-    height: 100%;
+    width: 100%;
+    height: 100%;   
 }
+
 .top-right-btn {
     position: absolute;
     top: 11.9px;
@@ -894,7 +896,6 @@ ________________________________________________________________________________
 @media screen and (max-width: 1128px) {
     section.ggrid {
         display: grid;
-        grid-template-rows: repeat(2, 1fr);
         grid-template-columns: repeat(3, 1fr);
         padding: 0px 40px 10px 40px;
         margin-top: 15px;
@@ -1518,7 +1519,6 @@ ________________________________________________________________________________
     section.ggrid{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        grid-template-rows: repeat(6,1fr);
         padding: 0px 24px 10px 24px;
         grid-row-gap:40px;
     }
