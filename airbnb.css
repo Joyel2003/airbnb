@@ -1709,7 +1709,7 @@ ________________________________________________________________________________
     .footer{
         margin: 0px;
         margin-bottom: 65px;
-        white-space: nowrap;
+        /* white-space: nowrap; */
         padding:36px 24px 80px;
     }
     .footer .session{
